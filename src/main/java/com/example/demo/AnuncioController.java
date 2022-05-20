@@ -31,11 +31,11 @@ public class AnuncioController {
 
         return "views/anuncios/create";
     }
-  /*@GetMapping("/buscar/{id}")
+   @GetMapping("/buscar/{id}")
    public String buscar(@PathVariable("id") Long idAnuncio){
     anuncioService.buscarAnuncioPorId(idAnuncio);
-    return AnuncioRepository.buscarAnuncioPorId
-    }*/
+    return "/anuncio/{id}";
+    }
 
 
 

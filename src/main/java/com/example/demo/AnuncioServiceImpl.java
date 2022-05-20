@@ -19,9 +19,9 @@ private final AnuncioRepository anuncioRepository;
         return anuncioRepository.findAll();
     }
 
-    /*public Optional<Anuncio> buscarAnuncioPorId(Long id) {
+    public Optional<Anuncio> buscarAnuncioPorId(Long id) {
         return anuncioRepository.findById(id);
-    }*/
+    }
 
     public Anuncio create(Anuncio anuncio){
         return anuncioRepository.save(anuncio);
