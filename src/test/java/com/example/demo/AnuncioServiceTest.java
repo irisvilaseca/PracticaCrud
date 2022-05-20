@@ -37,7 +37,9 @@ class AnuncioServiceTest {
     assertThat(capturedAnuncioId).isEqualTo(1L);
    };
     @Test
-    void puedoCrearUnEvento(){
+    void puedoCrearUnAnuncio(){
+    Anuncio anuncio = new Anuncio(
 
+    );
     }
 }
